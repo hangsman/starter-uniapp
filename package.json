@@ -23,6 +23,7 @@
     "vue": "^3.2.31"
   },
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "@antfu/eslint-config": "^0.20.2",
     "@dcloudio/types": "^2.5.19",
     "@dcloudio/uni-automator": "3.0.0-alpha-3040420220402002",
