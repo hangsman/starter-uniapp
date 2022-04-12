@@ -5,7 +5,7 @@
 [build]
   publish = "dist/build/h5"
   command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build:h5"
-部署
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
