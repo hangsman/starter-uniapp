@@ -14,7 +14,7 @@ const { increment } = useCounterStore()
       <span class="text-36rpx text-hex-8f8f94">
         {{ countStore.count }}
       </span>
-      <button class="mt-20rpx" @click="increment()">
+      <button class="mt-20rpx px-35rpx py-15rpx bg-blue-400 text-white font-medium text-xs uppercase rounded shadow-md" @click="increment()">
         add
       </button>
     </div>
