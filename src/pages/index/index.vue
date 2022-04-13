@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { useCounterStore } from '@/stores/counter'
-const title = ref('Hello')
 
 const countStore = useCounterStore()
 const { increment } = useCounterStore()
+
 </script>
 
 <template>
